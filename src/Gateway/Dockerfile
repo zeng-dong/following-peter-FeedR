@@ -13,5 +13,7 @@ ENV ASPNETCORE_ENVIRONMENT docker
 ENTRYPOINT dotnet FeedR.Gateway.dll
 
 # build image
+# docker build -t feedr-gateway .
 
 # run container
+# docker run --rm -it -p 5000:80 feedr-gateway

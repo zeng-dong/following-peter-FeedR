@@ -1,0 +1,8 @@
+cd into this folder
+* docker compose -f services.yml build
+* docker compose -f services.yml up -d
+* docker logs feedr-gateway
+* docker compose -f services.yml logs                      # to see all the logs
+* docker compose -f services.yml ps                      # to see all the containers of this compose
+* docker compose -f services.yml down
+* docker system prune
